@@ -8,11 +8,6 @@ public class People {
 	private String messages;
 
 	People(String nikcname) {
-		this.name = name;
-		this.allegiance = allegiance;
-		this.messagesFile = messagesFile;
-		this.messages = messages;
-
 	}
 
 	public String getName() {
@@ -46,11 +41,9 @@ public class People {
 	public void setMessages(String messages) {
 		this.messages = messages;
 	}
-
 	public void showChatMessages() {
 
 		System.out.print("Messages from " + this.name + " with allegiance to " + this.allegiance + " are shown in file "
 				+ this.messagesFile + ". The messages are: \n" + this.messages);
 	}
-
 }
